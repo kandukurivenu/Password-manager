@@ -12,7 +12,6 @@ import random
 import string
 import re
 
-# File to store encrypted passwords
 PASSWORD_FILE = 'passwords.json'
 
 def generate_salt(size=16):
